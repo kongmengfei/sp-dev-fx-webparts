@@ -9,6 +9,14 @@
           "manifest": "./src/webparts/greetingsWebpart/GreetingsWebpartWebPart.manifest.json"
         }
       ]
+    },
+    "anotherangular-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anotherangular/AnotherangularWebPart.js",
+          "manifest": "./src/webparts/anotherangular/AnotherangularWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {
@@ -19,9 +27,10 @@
     },
     "es-promise": "https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js",
     "fetch": "https://cdnjs.cloudflare.com/ajax/libs/fetch/3.0.0/fetch.js",
-    "sp-pnp-js":"https://cdnjs.cloudflare.com/ajax/libs/sp-pnp-js/3.0.10/pnp.min.js"
+    "sp-pnp-js": "https://cdnjs.cloudflare.com/ajax/libs/sp-pnp-js/3.0.10/pnp.min.js"
   },
   "localizedResources": {
-    "GreetingsWebpartWebPartStrings": "lib/webparts/greetingsWebpart/loc/{locale}.js"
+    "GreetingsWebpartWebPartStrings": "lib/webparts/greetingsWebpart/loc/{locale}.js",
+    "AnotherangularWebPartStrings": "lib/webparts/anotherangular/loc/{locale}.js"
   }
 }
